@@ -1,0 +1,58 @@
+.container {
+    width: 80% !important;
+    /* margin-right: auto; */
+    margin-left: auto;
+}
+
+body {
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 320px) {
+    .container {
+        margin-right: auto;
+    }
+}
+
+input[type=text] {
+    width: 260px;
+    height: 35px;
+    border: none;
+    border-radius: 23px;
+    border: 1px solid grey;
+    padding: 2px;
+    padding-left: 15px;
+    font-size: 13px;
+}
+
+
+input[type=text]:focus {
+    outline-offset: 2px;
+    outline: 5px;
+}
+
+.fas {
+    color: #4CAF50;
+}
+
+h4 {
+    color: #4CAF50;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    right: 8%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 15px;
+}
